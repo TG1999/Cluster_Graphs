@@ -120,6 +120,7 @@ struct graph
             cout << "no of sites " << count << endl << endl;
             }
         }
+        cout << "No. of clusters ";
         return ncluster;}
 };
 
@@ -141,6 +142,6 @@ int main()
     g.addedge(6,6);
     g.addedge(6,3);
     g.print_graph();
-    cout << endl << "No of clusters";
+    cout << endl;
     cout << g.no_of_clusters() << endl;
 }
